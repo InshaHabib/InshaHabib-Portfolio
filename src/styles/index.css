@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-body;
+    @apply transition-colors duration-300;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Glassmorphism effect */
+  .glass {
+    @apply bg-white/10 dark:bg-white/5 backdrop-blur-lg border border-white/20;
+  }
+
+  /* Neon glow effect */
+  .neon-glow {
+    box-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-gray-600;
+  }
+
+  /* Card hover effect */
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl;
+  }
+
+  /* Button primary */
+  .btn-primary {
+    @apply px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-lg;
+    @apply hover:from-blue-700 hover:to-blue-800 transition-all duration-300;
+    @apply shadow-lg hover:shadow-2xl hover:scale-105;
+  }
+
+  /* Button outline */
+  .btn-outline {
+    @apply px-8 py-4 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg;
+    @apply hover:bg-blue-600 hover:text-white transition-all duration-300;
+  }
+
+  /* Section container */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-900;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-blue-600 rounded-full;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-700;
+  }
+}
+
+/* Animated background grid */
+.grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(37, 99, 235, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 99, 235, 0.1) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Floating shapes animation */
+.floating-shape {
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-shape:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.floating-shape:nth-child(3) {
+  animation-delay: 2s;
+}
+
+/* Selection color */
+::selection {
+  @apply bg-blue-600 text-white;
+}
+
+/* Loading animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.loading-shimmer {
+  animation: shimmer 2s infinite;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    transparent 100%
+  );
+  background-size: 1000px 100%;
+}
+
+/* Gradient animation for text */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 3s ease infinite;
+}
+
+/* Float animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(59, 130, 246, 0.8), 0 0 60px rgba(59, 130, 246, 0.4);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Smooth container wrapper */
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Enhanced glassmorphism for hero */
+.glass-hero {
+  @apply bg-white/70 dark:bg-gray-900/70 backdrop-blur-2xl border border-white/30 dark:border-gray-700/30;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+/* Smooth transitions for theme switching */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Better focus states */
+*:focus-visible {
+  @apply outline-none ring-2 ring-blue-500 ring-offset-2 ring-offset-white dark:ring-offset-gray-900;
+}
+
