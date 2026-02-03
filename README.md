@@ -1,4 +1,4 @@
-## 🌐InshaHabib-Portfolio
+## InshaHabib-Portfolio
 
 A modern, fully responsive personal portfolio website built using React.js, Tailwind CSS, and Framer Motion. This portfolio showcases my skills, projects, experience, and services with smooth animations and a visually engaging user experience.
 
