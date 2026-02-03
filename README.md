@@ -2,27 +2,27 @@
 
 A modern, fully responsive personal portfolio website built using React.js, Tailwind CSS, and Framer Motion. This portfolio showcases my skills, projects, experience, and services with smooth animations and a visually engaging user experience.
 
-## 🚀Live Demo
+## Live Demo
 https://inshahabib-dev.netlify.app
 
-## ✨Features
+## ✨ Features
 
-### 🎯Core Features
+### 🎯 Core Features
 - **Fully Responsive Design** - Optimized for mobile, tablet, and desktop
 - **Dark/Light Mode Toggle** - Seamless theme switching with localStorage persistence
 - **Smooth Animations** - Beautiful scroll-based animations using Framer Motion
 - **Modern UI/UX** - Neo-brutalist design with glassmorphism and neon effects
 - **Fast Performance** - Optimized loading and rendering
 
-### 📄Sections
-- ✅ **Hero Section** - Eye-catching introduction with animated elements
-- ✅ **About Me** - Personal introduction with stats and profile
-- ✅ **Skills** - Animated skill cards with progress bars
-- ✅ **Projects** - Project showcase with modals and hover effects
-- ✅ **Experience** - Timeline of work history and education
-- ✅ **Services** - Service offerings with detailed descriptions
-- ✅ **Contact Form** - Validated contact form with success states
-- ✅ **Footer** - Social links and site information
+### 📄 Sections
+- **Hero Section** - Eye-catching introduction with animated elements
+- **About Me** - Personal introduction with stats and profile
+- **Skills** - Animated skill cards with progress bars
+- **Projects** - Project showcase with modals and hover effects
+- **Experience** - Timeline of work history and education
+- **Services** - Service offerings with detailed descriptions
+- **Contact Form** - Validated contact form with success states
+- **Footer** - Social links and site information
 
 ### 🛠️ Technical Features
 - React functional components with hooks
@@ -82,7 +82,7 @@ InshaHabib-Portfolio/
 └── README.md
 ```
 
-## 🔧Installation & Setup
+## 🔧 Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -111,7 +111,7 @@ InshaHabib-Portfolio/
    yarn build
    ```
 
-## 🚀Deployment
+## 🚀 Deployment
 
 ### Deploy to Netlify
 
@@ -128,7 +128,7 @@ InshaHabib-Portfolio/
 
 - Website: [Insha Habib](https://inshahabib-dev.netlify.app)
 - GitHub: [@InshaHabib](https://github.com/inshahabib)
-- LinkedIn: [Insha Habib](https://www.linkedin.com/in/insha-habib-414441316)
+- LinkedIn: [InshaHabib](https://www.linkedin.com/in/insha-habib-414441316)
 - Instagram: [@tech.with.insha](https://www.instagram.com/tech.with.insha)
 
 ---
