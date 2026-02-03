@@ -133,6 +133,10 @@ InshaHabib-Portfolio/
 
 ---
 
-⭐**Support this project by giving it a star on GitHub**⭐
+<p align="center">
+⭐ <b>Support this project by giving it a star on GitHub</b> ⭐
+</p>
 
-Developed and Maintained by **Insha Habib**
+<p align="center">
+Developed and Maintained by <b>Insha Habib</b>
+</p>
