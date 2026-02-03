@@ -126,9 +126,9 @@ InshaHabib-Portfolio/
 
 **Insha Habib**
 
-- Website: [Insha Habib](https://inshahabib-dev.netlify.app)
-- GitHub: [@InshaHabib](https://github.com/inshahabib)
-- LinkedIn: [InshaHabib](https://www.linkedin.com/in/insha-habib-414441316)
+- Website: [@Insha Habib](https://inshahabib-dev.netlify.app)
+- GitHub: [@Insha Habib](https://github.com/inshahabib)
+- LinkedIn: [@Insha Habib](https://www.linkedin.com/in/insha-habib-414441316)
 - Instagram: [@tech.with.insha](https://www.instagram.com/tech.with.insha)
 
 ---
