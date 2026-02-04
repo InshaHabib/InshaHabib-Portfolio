@@ -32,7 +32,7 @@ const Projects = () => {
       image: '/pro2.jpeg',
       tags: ['React', 'JavaScript', 'TailwindCSS'],
       liveUrl: 'https://ai-based-business-automation.netlify.app',
-      githubUrl: 'https://github.com/InshaHabib/AI-Based-Business-Automation-Web',
+      githubUrl: 'https://github.com/InshaHabib/AI-Automate',
       color: 'from-purple-500 to-pink-500',
     },
     {
