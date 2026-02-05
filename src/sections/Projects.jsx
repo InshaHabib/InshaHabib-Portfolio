@@ -79,8 +79,8 @@ const Projects = () => {
         'TaskFlow is a clean and user-friendly task management UI designed to help users organize tasks efficiently.',
       image: '/pro7.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      liveUrl: 'https://inshahabib.github.io/Website_for_Task_App',
-      githubUrl: 'https://github.com/InshaHabib/Website_for_Task_App',
+      liveUrl: ' https://inshahabib.github.io/TaskFlow',
+      githubUrl: 'https://github.com/InshaHabib/TaskFlow',
       color: 'from-pink-500 to-rose-500',
     },
     {
